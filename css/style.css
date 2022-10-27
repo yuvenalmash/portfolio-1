@@ -27,11 +27,11 @@
   /* Auto layout */
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 8px;
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   left: 350px;
   top: calc(50% - 40px / 2);
   border-radius: 8px;
@@ -53,6 +53,7 @@
   height: 44px;
   left: 12px;
   top: calc(50% - 44px / 2);
+  border-radius: 8px;
 }
 
 #logo-text {
@@ -181,22 +182,31 @@
 
 #github-icon {
   order: 0;
+  border-radius: 8px;
 }
 
 #linkedin-icon {
   order: 1;
+  border-radius: 8px;
 }
 
 #angelist-icon {
   order: 2;
+  border-radius: 8px;
 }
 
 #twitter-icon {
   order: 3;
+  border-radius: 8px;
 }
 
 #medium-icon {
   order: 4;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #ff6b00;
 }
 
 #illustration-header-mobile {
