@@ -1,0 +1,212 @@
+/* Template 2-Main-Mobile */
+.main-mobile {
+  position: relative;
+  width: 375px;
+  height: 6968px;
+
+  /* Theme 2 / Neutral 11 */
+  background: #fff;
+}
+
+/* App Bar - Compact - Dark - iOS */
+.app-bar {
+  position: absolute;
+  width: 423px;
+  height: 92px;
+
+  /* Theme 3 / Neutral 2 */
+  background: #3c3a39;
+}
+
+.toolbar {
+  position: absolute;
+  top: 44px;
+}
+
+#toolbar-menu {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+#toolbar-img {
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  left: 3px;
+  top: 6px;
+
+/* Theme 3 / Neutral 11 */
+background: #fff;
+}
+
+.logo-placeholder {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 101px;
+  height: 44px;
+  left: 12px;
+  top: calc(50% - 44px / 2);
+}
+
+#logo-text {
+  width: 100px;
+  height: 24px;
+
+  /* font-family: 'Roboto'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+
+  /* identical to box height, or 133% */
+  align-items: center;
+  text-align: center;
+
+  /* Theme 3 / Neutral 11 */
+  color: #fff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* HEADLINE */
+.headline {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+
+  /* left: 0px; */
+  top: 92px;
+
+  /* Theme 3 / Neutral 1 */
+  background: #1c1a19;
+}
+
+/* Primary Text */
+#primary-text {
+  width: 327px;
+  height: 124px;
+
+  /* font-family: 'Crete Round'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+
+  /* or 114% */
+  letter-spacing: 0.37px;
+
+  /* Theme 3 / Primary 1 */
+  color: #ff6b00;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Supporting Text */
+#supporting-text {
+  width: 327px;
+  height: 27px;
+
+  /* font-family: 'Roboto'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  /* or 133% */
+  display: flex;
+  align-items: center;
+
+  /* Theme 3 / Primary 4 */
+  color: #fff5e1;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Description */
+#description {
+  width: 327px;
+  height: 123px;
+
+  /* Theme 1 / Body Reguler 2 */
+
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Theme 3 / Neutral 11 */
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* Social Media */
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+#github-icon {
+  order: 0;
+}
+
+#linkedin-icon {
+  order: 1;
+}
+
+#angelist-icon {
+  order: 2;
+}
+
+#twitter-icon {
+  order: 3;
+}
+
+#medium-icon {
+  order: 4;
+}
+
+#illustration-header-mobile {
+  display: flex;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
