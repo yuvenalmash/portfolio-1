@@ -15,15 +15,16 @@
   flex-direction: row;
   order: 0;
 }
+
 .toolbar {
-  display:flex;
+  display: flex;
   flex-direction: row;
   position: absolute;
   width: 375px;
   height: 48px;
   top: 44px;
-  bottom: 0px;
 }
+
 .logo-placeholder {
   display: flex;
   align-items: center;
@@ -33,10 +34,11 @@
   left: 12px;
   border-radius: 8px;
 }
+
 #logo-text {
   width: 100px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -48,6 +50,7 @@
   order: 0;
   flex-grow: 0;
 }
+
 .toolbar-menu {
   display: flex;
   align-items: center;
@@ -58,6 +61,7 @@
   left: 300px;
   border-radius: 8px;
 }
+
 #toolbar-menu-icon {
   position: absolute;
   width: 18px;
@@ -66,7 +70,7 @@
 }
 
 /* HEADLINE */
-.headline { 
+.headline {
   display: flex;
   flex-direction: column;
   width: 375px;
@@ -75,13 +79,15 @@
   background-position: 100% 100%;
   order: 1;
 }
+
 .headline-fmt {
   padding-left: 15px;
 }
+
 .primary-text {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -92,10 +98,11 @@
   order: 0;
   flex-grow: 0;
 }
+
 .supporting-text {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -107,10 +114,11 @@
   order: 1;
   flex-grow: 0;
 }
+
 .description {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -131,7 +139,7 @@
   flex: none;
   order: 3;
   flex-grow: 0;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 #github-icon {
@@ -158,6 +166,7 @@
   order: 4;
   border-radius: 8px;
 }
+
 a:hover {
   background-color: #ff6b00;
 }
