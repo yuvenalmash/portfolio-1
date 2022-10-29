@@ -367,12 +367,15 @@ a:hover {
   font-size: 15px;
   line-height: 20px;
   box-sizing: border-box;
+  position: relative;
+  right: 30px;
 }
 
 .other-content-tags > li {
   width: fit-content;
   padding: 10px;
   background: rgba(255, 255, 255, 0.24);
+  justify-content: flex-start;
 }
 
 .other-content-link {
