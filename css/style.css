@@ -386,7 +386,7 @@ a:hover {
   width:375px;
   height: 1901px;
   background: url('../images/about/Frame.png') no-repeat #1C1A19;
-  background-position: 100% 30%;
+  background-position: 100% 25%;
   justify-content: center;
   order: 3;
 }
@@ -445,37 +445,48 @@ a:hover {
   justify-content: space-between;
   position: relative;
   gap: 24;
-  bottom: 300px;
+  bottom: 200px;
   
 }
 
 .about-bottom-subtopic {
-  width: 115px;
+  width: 150px;
   height: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
   align-items: center;
+  text-align: center;
+  justify-content: center;
   color: #FFFFFF;
+  position: relative;
+  left: 35px;
 }
 
 .about-bottom-items > ul > li{
   width: 150px;
-  height: 24px;
+  height: 40px;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 43px;
+  line-height: 100px;
   align-items: center;
   text-align: center;
   color: #FFFFFF;
   list-style-type: none;
+  /* position: relative;
+  top: 24px; */
 }
 
+.subtopic-language {
+  list-style-image:url("../images/about/Rectangle\ 55.png") ;
+}
+.subtopic-frameworks {
+  list-style-image:url("../images/about/Rectangle\ 56.png") ;
+}
 .subtopic-skills {
   list-style-image:url("../images/about/Rectangle\ 57.png") ;
 }
