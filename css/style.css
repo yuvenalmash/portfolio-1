@@ -296,7 +296,7 @@ a:hover {
 }
 
 .textblock-link {
-  background-color:#ff6b00;
+  background-color: #ff6b00;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -404,7 +404,6 @@ a:hover {
   top: 100px;
   left: 24px;
   gap: 24px;
-
 }
 
 .about-primary-text {
@@ -429,7 +428,7 @@ a:hover {
 }
 
 .about-link {
-  background-color:#ff6b00;
+  background-color: #ff6b00;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -471,7 +470,7 @@ a:hover {
   top: 35px;
 }
 
-.about-bottom-items > ul > li{
+.about-bottom-items > ul > li {
   width: 150px;
   height: 40px;
   font-family: 'Inter', serif;
@@ -488,13 +487,13 @@ a:hover {
 }
 
 .subtopic-language {
-  list-style-image:url("../images/about/Rectangle\ 55.png");
+  list-style-image: url("../images/about/Rectangle\ 55.png");
 }
 
 .subtopic-frameworks {
-  list-style-image:url("../images/about/Rectangle\ 56.png");
+  list-style-image: url("../images/about/Rectangle\ 56.png");
 }
 
 .subtopic-skills {
-  list-style-image:url("../images/about/Rectangle\ 57.png");
+  list-style-image: url("../images/about/Rectangle\ 57.png");
 }
