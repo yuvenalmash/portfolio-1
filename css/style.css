@@ -178,7 +178,7 @@ a:hover {
   align-items: center;
   width: 375px;
   height: 3455px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   order: 2;
 }
 
@@ -192,6 +192,7 @@ a:hover {
   justify-content: space-between;
   left: 24px;
 }
+
 .works-title {
   width: 327px;
   height: 10px;
@@ -202,8 +203,9 @@ a:hover {
   line-height: 30px;
   align-items: center;
   justify-content: center;
-  color: #1C1A19;
+  color: #1c1a19;
 }
+
 .works-header-hr {
   width: 327px;
   height: 0px;
@@ -235,6 +237,7 @@ a:hover {
   height: 237px;
   background: url('../images/featured-work/Img-Placeholder.png') no-repeat;
 }
+
 .featured-textblock {
   display: flex;
   flex-direction: column;
@@ -252,7 +255,7 @@ a:hover {
   font-weight: 400;
   font-size: 32px;
   align-items: center;
-  color: #091E42;
+  color: #091e42;
   position: relative;
   bottom: 30px;
 }
@@ -263,7 +266,7 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #091E42;
+  color: #091e42;
   position: relative;
   bottom: 40px;
 }
@@ -275,7 +278,7 @@ a:hover {
   width: 236px;
   height: 40px;
   list-style-type: none;
-  color: #091E42;
+  color: #091e42;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 500;
@@ -288,15 +291,13 @@ a:hover {
 }
 
 .textblock-tags > li {
-  /* padding: 5px 12px; */
-  /* height: 20px; */
-  background: #FFFFFF;
-  border: 1px solid #8993A4;
+  background: #fff;
+  border: 1px solid #8993a4;
   padding: 10px;
 }
 
 .textblock-link {
-  background-color:#FF6B00;
+  background-color:#ff6b00;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -334,7 +335,7 @@ a:hover {
   font-size: 32px;
   line-height: 44px;
   padding-left: 12px;
-  color: #FFFFFF;
+  color: #fff;
   position: relative;
   top: 50px;
 }
@@ -348,7 +349,7 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   padding-left: 12px;
-  color: #FFFFFF;
+  color: #fff;
   position: relative;
   top: 10px;
 }
@@ -360,7 +361,7 @@ a:hover {
   width: 236px;
   height: 40px;
   list-style-type: none;
-  color: #FFFFFF;
+  color: #fff;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 500;
@@ -376,7 +377,7 @@ a:hover {
 }
 
 .other-content-link {
-  background-color:#FF6B00;;
+  background-color:#ff6b00;;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -412,7 +413,7 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
-  color: #FF6B00;
+  color: #ff6b00;
   position: relative;
 }
 
@@ -424,11 +425,11 @@ a:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .about-link {
-  background-color:#FF6B00;;
+  background-color:#ff6b00;;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -444,7 +445,7 @@ a:hover {
   left: 0px;
   right: 0px;
   top: calc(50% - 0px/2 + 0.5px);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   }
 
 .about-bottom {
@@ -468,7 +469,7 @@ a:hover {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #fff;
   position: relative;
   left: 35px;
   top: 35px;
@@ -484,7 +485,7 @@ a:hover {
   line-height: 100px;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   list-style-type: none;
   position: relative;
   top: 24px;
