@@ -208,7 +208,6 @@ a:hover {
 
 .works-header-hr {
   width: 327px;
-  height: 0px;
   border: 1px solid #212121;
 }
 
@@ -377,7 +376,7 @@ a:hover {
 }
 
 .other-content-link {
-  background-color:#ff6b00;;
+  background-color: #ff6b00;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -386,13 +385,14 @@ a:hover {
   position: relative;
   top: 10px;
 }
+
 /* ABOUT */
 .about {
   display: flex;
   flex-direction: column;
-  width:375px;
+  width: 375px;
   height: 1901px;
-  background: url('../images/about/Frame.png') no-repeat #1C1A19;
+  background: url('../images/about/Frame.png') no-repeat #1c1a19;
   background-position: 100% 25%;
   justify-content: center;
   justify-content: space-between;
@@ -409,7 +409,7 @@ a:hover {
 
 .about-primary-text {
   width: 327px;
-  font-family: 'Crete Round',sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -420,7 +420,7 @@ a:hover {
 .about-description {
   width: 327px;
   height: 148px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -429,7 +429,7 @@ a:hover {
 }
 
 .about-link {
-  background-color:#ff6b00;;
+  background-color:#ff6b00;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -441,12 +441,9 @@ a:hover {
 
 .about-hr {
   width: 327px;
-  height: 0px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 0px/2 + 0.5px);
+  top: calc(50% - 0px / 2 + 0.5px);
   border: 1px solid #fff;
-  }
+}
 
 .about-bottom {
   display: grid;
@@ -455,7 +452,6 @@ a:hover {
   justify-content: space-between;
   position: relative;
   bottom: 300px;
-  
 }
 
 .about-bottom-subtopic {
@@ -492,11 +488,13 @@ a:hover {
 }
 
 .subtopic-language {
-  list-style-image:url("../images/about/Rectangle\ 55.png") ;
+  list-style-image:url("../images/about/Rectangle\ 55.png");
 }
+
 .subtopic-frameworks {
-  list-style-image:url("../images/about/Rectangle\ 56.png") ;
+  list-style-image:url("../images/about/Rectangle\ 56.png");
 }
+
 .subtopic-skills {
-  list-style-image:url("../images/about/Rectangle\ 57.png") ;
+  list-style-image:url("../images/about/Rectangle\ 57.png");
 }
