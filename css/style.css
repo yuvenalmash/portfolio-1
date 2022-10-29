@@ -451,9 +451,11 @@ a:hover {
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
+  align-items: center;
   justify-content: space-between;
   position: relative;
   bottom: 300px;
+  left: 30px;
 }
 
 .about-bottom-subtopic {
