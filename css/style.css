@@ -502,3 +502,27 @@ a:hover {
 .subtopic-skills {
   list-style-image: url("../images/about/Rectangle\ 57.png");
 }
+
+.last-section {
+  width: 375px;
+  height: 844px;
+  background-color: coral;
+  order: 4;
+}
+
+.last-section-text {
+  width: 327px;
+  height: 216px;
+  background-color: cadetblue;
+}
+
+.last-section-form {
+  width: 327px;
+  height: 330px;
+  background-color: rgb(45, 59, 135);
+}
+
+.last-icons {
+  background-color: brown;
+  order: 5;
+}
