@@ -502,3 +502,82 @@ a:hover {
 .subtopic-skills {
   list-style-image: url("../images/about/Rectangle\ 57.png");
 }
+
+.last-section {
+  width: 375px;
+  height: 844px;
+  background-color: #fff;
+  order: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.last-section-text {
+  width: 327px;
+  height: 216px;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #172b4d;
+  line-height: 44px;
+}
+
+.last-section-form {
+  width: 327px;
+  height: 330px;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 24px;
+  order: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+#name {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+#email {
+  width: 327px;
+  height: 48px;
+  order: 1;
+  margin-bottom: 10px;
+}
+
+#message {
+  width: 327px;
+  height: 114px;
+  order: 2;
+  margin-bottom: 15px;
+}
+
+#submit-btn {
+  width: 131px;
+  height: 48px;
+  order: 3;
+  background: #ff6b00;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  margin-left: 100px;
+  cursor: pointer;
+  border: none;
+}
+
+#submit-btn:hover {
+  background: #8993a4;
+}
+
+.last-icons {
+  order: 5;
+}
+
+#footer {
+  margin-left: 40px;
+  color: #505f79;
+}
