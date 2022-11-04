@@ -50,9 +50,6 @@
 
 .navbar-menu {
   order: 2;
-}
-
-.navbar-menu {
   display: none;
 }
 
@@ -71,7 +68,7 @@
 .headline-text {
   display: flex;
   flex-direction: column;
-  padding-left: 15px
+  padding-left: 15px;
 }
 
 #primary-text {
@@ -82,7 +79,7 @@
   font-size: 56px;
   line-height: 64px;
   font-weight: 400;
-  color: #F55800;
+  color: #f55800;
   flex: none;
   order: 0;
 }
@@ -168,7 +165,7 @@ a:hover {
   line-height: 30px;
   align-items: center;
   justify-content: center;
-  color: #091E42;
+  color: #091e42;
 }
 
 .works-header-hr {
@@ -277,6 +274,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
 }
+
 .other-content-title {
   width: 295px;
   font-family: 'Crete Round', sans-serif;
@@ -365,7 +363,7 @@ a:hover {
   font-style: normal;
   font-size: 72px;
   font-weight: 400;
-  color: #F55800;
+  color: #f55800;
   position: relative;
 }
 

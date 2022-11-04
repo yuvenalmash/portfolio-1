@@ -4,7 +4,6 @@
   height: 4561px;
   padding: 15px;
   padding-top: 0%;
-
 }
 
 .navbar {
@@ -36,7 +35,6 @@
   right: 194px;
   justify-content: space-around;
 }
-
 
 .nav-menu-icon {
   display: none;
@@ -100,7 +98,6 @@
   line-height: 32px;
 }
 
-
 .headline-social-media {
   flex-direction: column;
   order: 0;
@@ -108,7 +105,7 @@
   border-radius: 8px;
 }
 
-/*WORKS*/
+/* WORKS */
 .works {
   display: flex;
   flex-direction: column;
@@ -118,12 +115,11 @@
   position: relative;
   width: 1204px;
   height: 1805px;
-  order: 2
+  order: 2;
 }
 
 .works-header {
   flex-direction: row;
-  padding: 0px;
   gap: 24px;
   width: 1133px;
   height: 52px;
@@ -142,7 +138,7 @@
   width: 794px;
 }
 
-.works-content{
+.works-content {
   width: 1156px;
   height: 1379px;
   align-items: center;
@@ -153,7 +149,6 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
   gap: 24px;
   width: 1156px;
   height: 448px;
@@ -185,7 +180,6 @@
 }
 
 .textblock-tags {
-  padding: 0px;
   width: 297px;
   height: 40px;
 }
@@ -237,7 +231,7 @@
   background: url("../images/desktop-size/other-content/Img\ Placeholder\(4\).png");
 }
 
-/*ABOUT */
+/* ABOUT */
 .about {
   width: 1440px;
   height: 1195px;
@@ -262,7 +256,6 @@
   font-weight: 400;
   font-size: 72px;
   line-height: 82px;
-
 }
 
 .about-description {
@@ -275,10 +268,7 @@
 
 .about-hr {
   width: 1156px;
-  height: 0px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 0px/2 + 0.5px);
+  top: calc(50% - 0px / 2 + 0.5px);
 }
 
 .about-bottom {
@@ -298,7 +288,6 @@
 .about-bottom-subtopic {
   width: 270px;
   height: 60px;
-
 }
 
 .about-bottom-items > ul {
@@ -334,7 +323,6 @@
   align-items: center;
   gap: 24px;
   margin-top: 120px;
-
   width: 455px;
   height: 256px;
 }
@@ -361,12 +349,12 @@
 
 #first-name {
   width: 330px;
-  height: 48px;  
+  height: 48px;
 }
 
 #last-name {
   width: 330px;
-  height: 48px;  
+  height: 48px;
 }
 
 #email {
