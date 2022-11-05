@@ -6,8 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Crete Round|Poppins|Inter">
-  <link rel="stylesheet" href="css/style-main.css">
-  <link rel="stylesheet" href="css/style-desktop.css" media="(min-width:768px">
+  <link rel="stylesheet" href="css/test.css">
   <title>Portfolio</title>
 </head>
 
@@ -22,18 +21,18 @@
         <a class="nav-menu-button" href="#">Portfolio</a>
         <a class="nav-menu-button" href="#">About</a>
         <a class="nav-menu-button" href="#">Contact</a>
-        <a class="nav-menu-button" href="#"><img id="nav-mail-icon" src="images/desktop-size/Icon - Mail.png" alt="mail"></a>
+        <a class="nav-menu-button" href="#"><img id="nav-mail-icon" src="images/desktop-size/Icon - Mail.png"
+            alt="mail"></a>
       </ul>
       </a>
     </nav>
+
     <div class="headline">
-      <div class="headline-text">
-        <h1 id="primary-text">Hey there.<br> I'm Yuvenal</h1>
-        <h2 id="supporting-text">I am a Software Developer</h2>
-        <p id="description">I can help you build a product , feature or website Look through some of my
-          work and experience! If you like what you see and have a project you need coded,
-          don’t hestiate to contact me.</p>
-      </div>
+      <h1 id="primary-text">Hey there.<br> I'm Yuvenal</h1>
+      <h2 id="supporting-text">I am a Software Developer</h2>
+      <p id="description">I can help you build a product , feature or website Look through some of my
+        work and experience! If you like what you see and have a project you need coded,
+        don’t hestiate to contact me.</p>
 
       <ul class="headline-social-media">
         <li><a href="https://github.com/yuvenalmash" class="social-media-icon">
@@ -52,7 +51,7 @@
     <div class="works">
       <header class="works-header">
         <h1 class="works-title">My Recent Works</h1>
-        <hr class="works-header-hr">
+        <div class="works-header-hr"></div>
       </header>
       <div class="works-content">
         <div class="featured-content">
@@ -69,7 +68,6 @@
               <li>Ruby</li>
             </ul>
             <a class="textblock-link" href="#" target="_blank">See Project</a>
-
           </div>
         </div>
         <div class="other-content">
@@ -191,6 +189,7 @@
         <form action="https://formspree.io/f/xdojpkvr" method="POST">
           <input id="first-name" type="first-name" name="first-name" placeholder="First Name" maxlength="30" required>
           <input id="last-name" type="last-name" name="last-name" placeholder="Last Name" maxlength="30" required>
+          <input id="name" type="name" name="name" placeholder="Full Name" maxlength="30" required>
           <input id="email" type="email" name="email" placeholder="Email Address" required>
           <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
 
