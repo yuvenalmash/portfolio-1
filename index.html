@@ -7,45 +7,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Crete Round|Poppins|Inter">
   <link rel="stylesheet" href="css/style.css">
-  <title>Portfolio2</title>
+  <title>Portfolio</title>
 </head>
 
 <body>
-  <div class="main-mobile">
-    <header class="app-bar">
-      <nav class="toolbar">
-        <a class="logo-placeholder" href="#">
-          <p id="logo-text">logo</p>
-        </a>
-        <a class="toolbar-menu" href="#">
-          <img id="toolbar-menu-icon" src="icons/menu/Union.png" alt="menu">
-        </a>
-      </nav>
-    </header>
+  <div class="main-container">
+    <nav class="navbar">
+      <a class="logo-placeholder" href="#">
+        <p id="logo-text">logo</p>
+      </a>
+      <a class="nav-menu-icon" href="#"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
+      <ul class="navbar-menu">
+        <a class="nav-menu-button" href="#">Portfolio</a>
+        <a class="nav-menu-button" href="#">About</a>
+        <a class="nav-menu-button" href="#">Contact</a>
+        <a class="nav-menu-button" href="#"><img id="nav-mail-icon" src="images/desktop-size/Icon - Mail.png"
+            alt="mail"></a>
+      </ul>
+      </a>
+    </nav>
+
     <div class="headline">
-      <h1 class="headline-fmt primary-text">Hey there. I'm Yuvenal</h1>
-      <h2 class="headline-fmt supporting-text">I am a Software Developer</h2>
-      <p class="headline-fmt description">I can help you build a product , feature or website Look through some of my
-        work and
-        experience! If you like what you see and have a project you need coded,
-        don’t hestiate to contact me.</p>
-      <ul class="social-media">
-        <li><a href="https://github.com/yuvenalmash" id="github-icon">
+      <div class="hedline-text">
+        <h1 id="primary-text">Hey there.<br> I'm Yuvenal</h1>
+        <h2 id="supporting-text">I am a Software Developer</h2>
+        <p id="description">I can help you build a product , feature or website Look through some of my
+          work and experience! If you like what you see and have a project you need coded,
+          don’t hestiate to contact me.
+        </p>
+      </div>
+
+      <ul class="headline-social-media">
+        <li><a href="https://github.com/yuvenalmash" class="social-media-icon">
             <img src="icons/github/Vector.png" alt="github"></a></li>
-        <li><a href="https://linkedin.com/in/yuvenal-njoroge" id="linkedin-icon">
+        <li><a href="https://linkedin.com/in/yuvenal-njoroge" class="social-media-icon">
             <img src="icons/linkedin/Group.png" alt="linkedin"></a></li>
-        <li><a href="#" id="angelist">
+        <li><a href="#" class="social-media-icon">
             <img src="icons/angelist/Vector.png" alt="angelist"></a></li>
-        <li><a href="https://twitter.com/_juvenal_" id="twitter-icon">
+        <li><a href="https://twitter.com/_juvenal_" class="social-media-icon">
             <img src="icons/twitter/Vector.png" alt="twitter"></a></li>
-        <li><a href="https://medium.com/@yuvenal.njoroge" id="medium-icon">
+        <li><a href="https://medium.com/@yuvenal.njoroge" class="social-media-icon">
             <img src="icons/medium/Vector.png" alt="medium"></a></li>
       </ul>
     </div>
+
     <div class="works">
       <header class="works-header">
         <h1 class="works-title">My Recent Works</h1>
-        <hr class="works-header-hr">
+        <div class="works-header-hr"></div>
       </header>
       <div class="works-content">
         <div class="featured-content">
@@ -62,19 +71,10 @@
               <li>Ruby</li>
             </ul>
             <a class="textblock-link" href="#" target="_blank">See Project</a>
-
           </div>
         </div>
         <div class="other-content">
           <div class="content-defaults content1">
-            <h2 class="other-content-title">Profesional Art Printing Data</h2>
-            <p class="other-content-description">A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p>
-            <ul class="other-content-tags">
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
             <a class="other-content-link" href="#" target="_blank">See Project</a>
           </div>
           <div class="content-defaults content2">
@@ -135,6 +135,7 @@
         </div>
       </div>
     </div>
+
     <div class="about">
       <div class="about-top">
         <h1 class="about-primary-text">About me</h1>
@@ -143,11 +144,10 @@
           hestiate to contact me.</p>
         <a class="about-link" href="#" target="_blank">Get My Resume</a>
       </div>
-
       <hr class="about-hr">
       <div class="about-bottom">
         <ul>
-          <li class="about-bottom-subtopic subtopic-language">Language</li>
+          <div id="language-topic"><li class="about-bottom-subtopic subtopic-language">Language</li></div>
           <div class="about-bottom-items">
             <ul>
               <li>Javascript</li>
@@ -158,7 +158,7 @@
           </div>
         </ul>
         <ul>
-          <li class="about-bottom-subtopic subtopic-frameworks">Frameworks</li>
+          <div id="frameworks-topic"><li class="about-bottom-subtopic subtopic-frameworks">Frameworks</li></div>
           <div class="about-bottom-items">
             <ul>
               <li>Bootstrap</li>
@@ -170,7 +170,7 @@
           </div>
         </ul>
         <ul>
-          <li class="about-bottom-subtopic subtopic-skills">Skills</li>
+          <div id="skills-topic"><li class="about-bottom-subtopic subtopic-skills">Skills</li></div>
           <div class="about-bottom-items">
             <ul>
               <li>Codekit</li>
@@ -182,38 +182,35 @@
           </div>
         </ul>
       </div>
-
     </div>
+
     <div class="last-section">
       <div class="last-section-text">
         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
       </div>
       <div class="last-section-form">
         <form action="https://formspree.io/f/xdojpkvr" method="POST">
-          <label>
-            <input id="name" type="name" name="name" placeholder="Full Name" maxlength="30" required>
-          </label>
-          <label for="email">
-            <input id="email" type="email" name="email" placeholder="Email Address" required>
-          </label>
-          <label>
-            <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
-          </label>
+          <input id="first-name" type="first-name" name="first-name" placeholder="First Name" maxlength="30" required>
+          <input id="last-name" type="last-name" name="last-name" placeholder="Last Name" maxlength="30" required>
+          <input id="name" type="name" name="name" placeholder="Full Name" maxlength="30" required>
+          <input id="email" type="email" name="email" placeholder="Email Address" required>
+          <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+
           <button id="submit-btn" type="submit">Get In Touch</button>
         </form>
       </div>
     </div>
-    <div class="last-icons">
+    <div class="bottom-navigation">
       <ul class="social-media" id="footer">
-        <li><a href="https://github.com/yuvenalmash" id="github-icon">
+        <li><a href="https://github.com/yuvenalmash" class="social-media-icon">
             <img src="icons/social-media-dark/github/Vector.png" alt="github"></a></li>
-        <li><a href="https://linkedin.com/in/yuvenal-njoroge" id="linkedin-icon">
+        <li><a href="https://linkedin.com/in/yuvenal-njoroge" class="social-media-icon">
             <img src="icons/social-media-dark/linkedin/Group.png" alt="linkedin"></a></li>
-        <li><a href="#" id="angelist">
+        <li><a href="#" class="social-media-icon">
             <img src="icons/social-media-dark/angelist/Vector.png" alt="angelist"></a></li>
-        <li><a href="https://twitter.com/_juvenal_" id="twitter-icon">
+        <li><a href="https://twitter.com/_juvenal_" class="social-media-icon">
             <img src="icons/social-media-dark/twitter/Vector.png" alt="twitter"></a></li>
-        <li><a href="https://medium.com/@yuvenal.njoroge" id="medium-icon">
+        <li><a href="https://medium.com/@yuvenal.njoroge" class="social-media-icon">
             <img src="icons/social-media-dark/medium/Vector.png" alt="medium"></a></li>
       </ul>
     </div>
