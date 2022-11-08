@@ -3,32 +3,31 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Crete Round|Poppins|Inter">
   <link rel="stylesheet" href="css/style.css">
-  <title>Portfolio</title>
+  <title>Yuvenal's Portfolio</title>
 </head>
 
 <body>
   <div class="main-container">
-    <nav class="navbar">
-      <a class="logo-placeholder" href="#">
-        <p id="logo-text">logo</p>
-      </a>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <a id="logo-text" href="#">Yuvenal</a>
       <a class="nav-menu-icon" href="#"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
       <ul class="navbar-menu">
-        <a class="nav-menu-button" href="#">Portfolio</a>
-        <a class="nav-menu-button" href="#">About</a>
-        <a class="nav-menu-button" href="#">Contact</a>
-        <a class="nav-menu-button" href="#"><img id="nav-mail-icon" src="images/desktop-size/Icon - Mail.png"
-            alt="mail"></a>
+        <li><a class="nav-menu-button" href="#">Portfolio</a></li>
+        <li><a class="nav-menu-button" href="#">About</a></li>
+        <li><a class="nav-menu-button" href="#">Contact</a></li>
+        <li><a class="nav-menu-button" href="#">
+            <img id="nav-mail-icon" src="images/desktop-size/Icon - Mail.png" alt="mail"></a>
+        </li>
       </ul>
-      </a>
-    </nav>
+    </div>
 
+    <!-- Headline -->
     <div class="headline">
-      <div class="hedline-text">
+      <div class="headline-text">
         <h1 id="primary-text">Hey there.<br> I'm Yuvenal</h1>
         <h2 id="supporting-text">I am a Software Developer</h2>
         <p id="description">I can help you build a product , feature or website Look through some of my
@@ -51,10 +50,11 @@
       </ul>
     </div>
 
+    <!-- Recent Works -->
     <div class="works">
       <header class="works-header">
         <h1 class="works-title">My Recent Works</h1>
-        <div class="works-header-hr"></div>
+        <hr class="works-header-hr">
       </header>
       <div class="works-content">
         <div class="featured-content">
@@ -136,6 +136,7 @@
       </div>
     </div>
 
+    <!-- About -->
     <div class="about">
       <div class="about-top">
         <h1 class="about-primary-text">About me</h1>
@@ -147,7 +148,9 @@
       <hr class="about-hr">
       <div class="about-bottom">
         <ul>
-          <div id="language-topic"><li class="about-bottom-subtopic subtopic-language">Language</li></div>
+          <div id="language-topic">
+            <li class="about-bottom-subtopic subtopic-language">Language</li>
+          </div>
           <div class="about-bottom-items">
             <ul>
               <li>Javascript</li>
@@ -158,7 +161,9 @@
           </div>
         </ul>
         <ul>
-          <div id="frameworks-topic"><li class="about-bottom-subtopic subtopic-frameworks">Frameworks</li></div>
+          <div id="frameworks-topic">
+            <li class="about-bottom-subtopic subtopic-frameworks">Frameworks</li>
+          </div>
           <div class="about-bottom-items">
             <ul>
               <li>Bootstrap</li>
@@ -170,7 +175,9 @@
           </div>
         </ul>
         <ul>
-          <div id="skills-topic"><li class="about-bottom-subtopic subtopic-skills">Skills</li></div>
+          <div id="skills-topic">
+            <li class="about-bottom-subtopic subtopic-skills">Skills</li>
+          </div>
           <div class="about-bottom-items">
             <ul>
               <li>Codekit</li>
@@ -184,14 +191,17 @@
       </div>
     </div>
 
-    <div class="last-section">
-      <div class="last-section-text">
-        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+    <!-- Form Section -->
+    <div class="form-section">
+      <div class="form-section-text">
+        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </div>
-      <div class="last-section-form">
+      <div class="form-section-form">
         <form action="https://formspree.io/f/xdojpkvr" method="POST">
-          <input id="first-name" type="first-name" name="first-name" placeholder="First Name" maxlength="30" required>
-          <input id="last-name" type="last-name" name="last-name" placeholder="Last Name" maxlength="30" required>
+          <div id="names">
+            <input id="first-name" type="first-name" name="first-name" placeholder="First Name" maxlength="30" required>
+            <input id="last-name" type="last-name" name="last-name" placeholder="Last Name" maxlength="30" required>
+          </div>
           <input id="name" type="name" name="name" placeholder="Full Name" maxlength="30" required>
           <input id="email" type="email" name="email" placeholder="Email Address" required>
           <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
@@ -200,7 +210,10 @@
         </form>
       </div>
     </div>
-    <div class="bottom-navigation">
+
+    <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+      <hr id="footer-hr">
       <ul class="social-media" id="footer">
         <li><a href="https://github.com/yuvenalmash" class="social-media-icon">
             <img src="icons/social-media-dark/github/Vector.png" alt="github"></a></li>
@@ -214,6 +227,7 @@
             <img src="icons/social-media-dark/medium/Vector.png" alt="medium"></a></li>
       </ul>
     </div>
+
   </div>
 </body>
 

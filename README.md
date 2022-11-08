@@ -4,6 +4,9 @@
 
 > The project is a setup of a mobile first portfolio
 
+## Link
+- [Yuvenal's portfolio](https://yuvenalmash.github.io/portfolio-1/)
+
 
 ## Built With
 
@@ -20,7 +23,7 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Yuvenal**
 
 - GitHub: [@githubhandle](https://github.com/yuvenalmash)
 - Twitter: [@twitterhandle](https://twitter.com/_Juvenal_)
