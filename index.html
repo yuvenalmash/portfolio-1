@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
   <title>Yuvenal's Portfolio</title>
 </head>
 
@@ -14,7 +15,7 @@
     <!-- Navbar -->
     <div class="navbar">
       <a id="logo-text" href="#">Yuvenal</a>
-      <a class="nav-menu-icon" href="#"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
+      <a class="nav-menu-icon" onclick="show_menu()"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
       <ul class="navbar-menu">
         <li><a class="nav-menu-button" href="#">Portfolio</a></li>
         <li><a class="nav-menu-button" href="#">About</a></li>
@@ -24,9 +25,24 @@
         </li>
       </ul>
     </div>
+    
+    <!-- Menu -->
+    <div class="menu" id="menu-box">
+      <div class="menu-nav">
+        <a onclick="close_menu()"><img src="icons/close/Icon.png" alt="close"></a>
+      </div>
+      <ul>
+        <li><a href="#works_section">Portfolio</a>
+        <hr></li>
+        <li><a onclick="scrollIntoView('#about_section')">About</a>
+        <hr></li>
+        <li><a onclick="scrollIntoView('#contact_section')">Contact</a>
+        <hr></li>
+      </ul>
+    </div>
 
     <!-- Headline -->
-    <div class="headline">
+    <div class="headline" id="headline">
       <div class="headline-text">
         <h1 id="primary-text">Hey there.<br> I'm Yuvenal</h1>
         <h2 id="supporting-text">I am a Software Developer</h2>
@@ -51,7 +67,7 @@
     </div>
 
     <!-- Recent Works -->
-    <div class="works">
+    <div class="works" id="works_section">
       <header class="works-header">
         <h1 class="works-title">My Recent Works</h1>
         <hr class="works-header-hr">
@@ -137,7 +153,7 @@
     </div>
 
     <!-- About -->
-    <div class="about">
+    <div class="about" id="about_section">
       <div class="about-top">
         <h1 class="about-primary-text">About me</h1>
         <p class="about-description">Hello I’m a software developer! I can help you build a product , feature or website
@@ -192,7 +208,7 @@
     </div>
 
     <!-- Form Section -->
-    <div class="form-section">
+    <div class="form-section" id="contact_section">
       <div class="form-section-text">
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
       </div>
