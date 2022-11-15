@@ -867,4 +867,49 @@ a:hover {
   .bottom-navigation {
     order: 5;
   }
+
+  /* Works-popup */
+.works-popup {
+  padding: 112px 9.86% 112px 9.86%;
+  backdrop-filter: blur(7px);
+  display: none;
+  position: absolute;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 2.07%;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+}
+
+.works-popup h1 {
+  height: 40px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.popup-img {
+  width: 57%;
+  height: 448px;
+  background: url("../images/popups/Snapshoot\ Portfolio\(desktop\).png");
+}
+
+.popup-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 36.7%;
+  gap: 19px;
+}
+
+.popup-text ul {
+  justify-content: flex-start;
+}
 }
