@@ -469,7 +469,6 @@ a:hover {
   padding: 0% 10.66% 0% 10.66%;
   gap: 20px;
   height: 83.7%;
-
 }
 
 .menu ul li {
@@ -486,7 +485,7 @@ a:hover {
 
 .menu-footer {
   height: 57px;
-  background: #E5E5E5;
+  background: #e5e5e5;
   display: flex;
   align-items: flex-end;
   justify-content: center;
