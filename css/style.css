@@ -53,8 +53,8 @@ body {
   padding: 10.66%;
   padding-top: 0%;
   display: none;
-  position:absolute;
-  background: #3C3A39;
+  position: absolute;
+  background: #3c3a39;
   text-decoration: none;
 }
 
@@ -72,16 +72,9 @@ body {
   gap: 20px;
 }
 
-.menu ul li {
-  list-style: none;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-}
-
 .menu a {
   text-decoration: none;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 /* Headline */
@@ -190,7 +183,6 @@ a:hover {
 }
 
 #featured-image {
-  min-width: none;
   min-height: 237px;
   justify-content: center;
   background: url('../images/featured-work/Img-Placeholder.png') no-repeat;
@@ -233,7 +225,7 @@ a:hover {
   gap: 12px;
 }
 
-.textblock-tags>li {
+.textblock-tags > li {
   background: #fff;
   border: 1px solid #8993a4;
   padding: 10px 12px;
@@ -301,7 +293,7 @@ a:hover {
   padding-right: 5.42%;
 }
 
-.other-content-tags>li {
+.other-content-tags > li {
   padding: 10px;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -372,7 +364,7 @@ a:hover {
 .about-bottom {
   display: grid;
   grid-template-columns: auto;
-  grid-row: auto auto auto;
+  grid-row: auto;
   padding-top: 120px;
   gap: 32px;
 }
@@ -388,7 +380,7 @@ a:hover {
   padding-bottom: 25px;
 }
 
-.about-bottom-items>ul>li {
+.about-bottom-items > ul > li {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -397,11 +389,11 @@ a:hover {
   text-align: center;
 }
 
-.about-bottom>ul {
+.about-bottom > ul {
   padding: 0%;
 }
 
-.about-bottom-items>ul {
+.about-bottom-items > ul {
   line-height: 30px;
   padding: 0%;
 }
@@ -437,7 +429,7 @@ a:hover {
   color: #172b4d;
 }
 
-.form-section-form>form {
+.form-section-form > form {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -483,9 +475,15 @@ a:hover {
   padding-left: 0%;
 }
 
+.menu ul li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 /* *************************************** */
 @media only screen and (min-width: 768px) {
-
   /* Navbar */
   .navbar {
     height: 72px;
@@ -709,7 +707,7 @@ a:hover {
     gap: 100px;
   }
 
-  .about-bottom-items>ul>li {
+  .about-bottom-items > ul > li {
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
