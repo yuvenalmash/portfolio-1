@@ -408,6 +408,10 @@ a:hover {
   display: none;
 }
 
+.form-section form label {
+  display: none;
+}
+
 #submit-btn {
   order: 3;
   width: 131px;
