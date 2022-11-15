@@ -194,7 +194,7 @@ a:hover {
   gap: 12px;
 }
 
-.textblock-tags > li {
+.textblock-tags>li {
   background: #fff;
   border: 1px solid #8993a4;
   padding: 10px 12px;
@@ -262,7 +262,7 @@ a:hover {
   padding-right: 5.42%;
 }
 
-.other-content-tags > li {
+.other-content-tags>li {
   padding: 10px;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -349,7 +349,7 @@ a:hover {
   padding-bottom: 25px;
 }
 
-.about-bottom-items > ul > li {
+.about-bottom-items>ul>li {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -358,11 +358,11 @@ a:hover {
   text-align: center;
 }
 
-.about-bottom > ul {
+.about-bottom>ul {
   padding: 0%;
 }
 
-.about-bottom-items > ul {
+.about-bottom-items>ul {
   line-height: 30px;
   padding: 0%;
 }
@@ -398,7 +398,7 @@ a:hover {
   color: #172b4d;
 }
 
-.form-section-form > form {
+.form-section-form>form {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -504,8 +504,90 @@ a:hover {
   border-radius: 20%;
 }
 
+/* Works-popup */
+.works-popup {
+  padding: 60px 4.26% 221px 4.26%;
+  backdrop-filter: blur(7px);
+  display: none;
+  position: absolute;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 4.66%;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+}
+
+.works-popup header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.works-popup h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  height: 82px;
+  color: #172B4D;
+}
+
+.popuptags {
+  display: flex;
+  padding: 0%;
+  list-style: none;
+  gap: 5px;
+}
+
+.popuptags li {
+  padding: 10px 12px;
+  border: 1px solid #DFE1E6;
+  background: #FFFFFF;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.popup-img {
+  width: 82%;
+  height: 220px;
+  background: url("../images/popups/Snapshoot\ Portfolio.png");
+}
+
+.popup-text {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.popup-text ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  gap: 19px;
+  list-style: none;
+}
+
+.popup-text li {
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #FF6B00;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 /* *************************************** */
 @media only screen and (min-width: 768px) {
+
   /* Navbar */
   .navbar {
     height: 72px;
@@ -729,7 +811,7 @@ a:hover {
     gap: 100px;
   }
 
-  .about-bottom-items > ul > li {
+  .about-bottom-items>ul>li {
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;

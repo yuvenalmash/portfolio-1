@@ -15,7 +15,8 @@
     <!-- Navbar -->
     <div class="navbar">
       <a id="logo-text" href="#">Yuvenal</a>
-      <a class="nav-menu-icon" onclick="showMenu()"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
+      <a class="nav-menu-icon" onclick="showMenu()"><img id="navbar-menu-icon" src="icons/menu/Union.png"
+          alt="menu"></a>
       <ul class="navbar-menu">
         <li><a class="nav-menu-button" href="#works_section">Portfolio</a></li>
         <li><a class="nav-menu-button" href="#about_section">About</a></li>
@@ -25,7 +26,7 @@
         </li>
       </ul>
     </div>
-    
+
     <!-- Menu -->
     <div class="menu" id="menu-box">
       <div class="menu-nav">
@@ -33,11 +34,14 @@
       </div>
       <ul>
         <li><a onclick="closeMenu()" href="#works_section">Portfolio</a>
-        <hr></li>
+          <hr>
+        </li>
         <li><a onclick="closeMenu()" href="#about_section">About</a>
-        <hr></li>
+          <hr>
+        </li>
         <li><a onclick="closeMenu()" href="#contact_section">Contact</a>
-        <hr></li>
+          <hr>
+        </li>
       </ul>
       <div class="menu-footer">
         <hr>
@@ -89,12 +93,12 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a class="textblock-link" href="#" target="_blank">See Project</a>
+            <a class="textblock-link" onclick="showProject()" href="#">See Project</a>
           </div>
         </div>
         <div class="other-content">
           <div class="content-defaults content1">
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
+            <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
           </div>
           <div class="content-defaults content2">
             <h2 class="other-content-title">Profesional Art Printing Data</h2>
@@ -105,7 +109,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
+            <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
           </div>
           <div class="content-defaults content3">
             <h2 class="other-content-title">Profesional Art Printing Data</h2>
@@ -116,7 +120,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
+            <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
           </div>
           <div class="content-defaults content4">
             <h2 class="other-content-title">Profesional Art Printing Data</h2>
@@ -127,7 +131,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
+            <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
           </div>
           <div class="content-defaults content5">
             <h2 class="other-content-title">Profesional Art Printing Data</h2>
@@ -138,7 +142,7 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
+            <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
           </div>
           <div class="content-defaults content6">
             <h2 class="other-content-title">Profesional Art Printing Data</h2>
@@ -149,7 +153,42 @@
               <li>bootstrap</li>
               <li>Ruby</li>
             </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
+            <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- works popup -->
+    <div class="works-popup" id="popupBox">
+      <div class="popup-card">
+        <header>
+          <h1 class="title">
+            Multi Post Stories
+          </h1>
+          <a onclick="closeProject()"><img src="icons/close/Icon.png" alt="close"></a>
+        </header>
+        <ul class="popuptags">
+          <li>html</li>
+          <li>Bootstrap</li>
+          <li>Ruby on rails</li>
+        </ul>
+        <div class="popup-content">
+          <div class="popup-img"></div>
+          <div class="popup-text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essent
+            </p>
+            <ul>
+              <li>see live
+                <img src="icons/popup/Icon - Export.png" alt="live">
+              </li>
+              <li>see source
+                <img src="icons/popup/Vector.png" alt="github">
+              </li>
+            </ul>
           </div>
         </div>
       </div>
