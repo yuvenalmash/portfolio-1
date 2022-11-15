@@ -17,9 +17,9 @@
       <a id="logo-text" href="#">Yuvenal</a>
       <a class="nav-menu-icon" onclick="show_menu()"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
       <ul class="navbar-menu">
-        <li><a class="nav-menu-button" href="#">Portfolio</a></li>
-        <li><a class="nav-menu-button" href="#">About</a></li>
-        <li><a class="nav-menu-button" href="#">Contact</a></li>
+        <li><a class="nav-menu-button" href="#works_section">Portfolio</a></li>
+        <li><a class="nav-menu-button" href="#about_section">About</a></li>
+        <li><a class="nav-menu-button" href="#contact_section">Contact</a></li>
         <li><a class="nav-menu-button" href="#">
             <img id="nav-mail-icon" src="images/desktop-size/Icon - Mail.png" alt="mail"></a>
         </li>
@@ -32,11 +32,11 @@
         <a onclick="close_menu()"><img src="icons/close/Icon.png" alt="close"></a>
       </div>
       <ul>
-        <li><a href="#works_section">Portfolio</a>
+        <li><a onclick="close_menu()" href="#works_section">Portfolio</a>
         <hr></li>
-        <li><a onclick="scrollIntoView('#about_section')">About</a>
+        <li><a onclick="close_menu()" href="#about_section">About</a>
         <hr></li>
-        <li><a onclick="scrollIntoView('#contact_section')">Contact</a>
+        <li><a onclick="close_menu()" href="#contact_section">Contact</a>
         <hr></li>
       </ul>
     </div>

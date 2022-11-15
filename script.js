@@ -12,11 +12,3 @@ function close_menu() {
   var menuBox = document.getElementById('menu-box');
   menuBox.style.display = "none"
 }
-
-function scrollIntoView(element_id) {
-  var menuBox = document.getElementById('menu-box');
-  menuBox.style.display = "none"
-
-  var element = document.getElementById(element_id);
-  element.scrollIntoView();
-}
