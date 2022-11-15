@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   min-width: 375px;
+  scroll-behavior: smooth;
 }
 
 .main-container {
@@ -151,7 +152,6 @@ a:hover {
 }
 
 #featured-image {
-  min-width: none;
   min-height: 237px;
   justify-content: center;
   background: url('../images/featured-work/Img-Placeholder.png') no-repeat;
@@ -333,7 +333,7 @@ a:hover {
 .about-bottom {
   display: grid;
   grid-template-columns: auto;
-  grid-row: auto auto auto;
+  grid-row: auto;
   padding-top: 120px;
   gap: 32px;
 }
@@ -444,6 +444,62 @@ a:hover {
   padding-left: 0%;
 }
 
+/* Menu Nav */
+.menu {
+  height: 80vh;
+  width: 100%;
+  display: none;
+  position: absolute;
+  background: #3c3a39;
+  text-decoration: none;
+}
+
+.menu-nav {
+  height: 48px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0% 10.66% 0% 10.66%;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  padding: 0% 10.66% 0% 10.66%;
+  gap: 20px;
+  height: 83.7%;
+}
+
+.menu ul li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
+.menu-footer {
+  height: 57px;
+  background: #e5e5e5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.menu-footer hr {
+  width: 35%;
+  height: 2px;
+  margin-bottom: 7px;
+  color: #3c3a39;
+  background-color: #3c3a39;
+  border-radius: 20%;
+}
+
 /* *************************************** */
 @media only screen and (min-width: 768px) {
   /* Navbar */
@@ -481,6 +537,10 @@ a:hover {
   #nav-mail-icon {
     width: 20px;
     height: 20px;
+  }
+
+  .menu {
+    display: none;
   }
 
   /* Headline */
