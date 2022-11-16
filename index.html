@@ -9,7 +9,7 @@
   <title>Yuvenal's Portfolio</title>
 </head>
 
-<body>
+<body onload = "pageLoad()">
   <div class="main-container">
 
     <!-- Navbar -->
@@ -79,8 +79,8 @@
         <h1 class="works-title">My Recent Works</h1>
         <hr class="works-header-hr">
       </header>
-      <div class="works-content">
-        <div class="featured-content">
+      <div class="works_content" id="worksContent">
+        <!-- <div class="featured-content">
           <div id="featured-image"></div>
           <div class="featured-textblock">
             <h2 id="textblock-title">Multi-Post Stories</h2>
@@ -95,9 +95,9 @@
             </ul>
             <a class="textblock-link" onclick="showProject()" href="#">See Project</a>
           </div>
-        </div>
-        <div class="other-content">
-          <div class="content-defaults content1">
+        </div> -->
+        <div class="other-content" id="otherContent">
+          <!-- <div class="content-defaults content1">
             <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
           </div>
           <div class="content-defaults content2">
@@ -154,14 +154,14 @@
               <li>Ruby</li>
             </ul>
             <a class="other-content-link" onclick="showProject()" href="#">See Project</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
 
     <!-- works popup -->
     <div class="works-popup" id="popupBox">
-      <div class="popup-card">
+      <!-- <div class="popup-card">
         <header>
           <h1 class="title">
             Multi Post Stories
@@ -191,7 +191,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- About -->
