@@ -42,15 +42,10 @@ function createFeaturedWorks(project, tagsListId) {
   }else {
     image = project.featuredImageBig
   }
-  
 
   var parent = document.getElementById('worksContent')
   parent.innerHTML += featuredWorks
   generatelist(project.technologies, tagsListId)
-  // var img = document.createElement("img");
-  // img.src = image;
-  // var src = document.getElementById("featured-image");
-  // src.appendChild(img);
 }
 
 function createOtherWorks(project, tagsListId) {
@@ -99,11 +94,6 @@ function createWorkPopup(project) {
 
 function generatelist(array, listId) {
   let list = document.getElementById(listId);
-  // array.forEach((item) => {
-  //   let li = document.createElement("li");
-  //   li.innerText = item;
-  //   list.appendChild(li);
-  // })
   for (let item of array) {
     let li = document.createElement("li");
     li.innerText = item;
@@ -191,7 +181,6 @@ function listProjects() {
   };
   return [project1, project2, project3, project4, project5, project6, project7]
 }
-
 
 showMenu();
 closeMenu();
