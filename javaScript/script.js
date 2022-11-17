@@ -174,6 +174,16 @@ function pageLoad() {
       createOtherWorks(projects[x], tagsListId);
     }
   }
+
+  //Validate Form
+  const element = document.querySelector('form');
+  element.addEventListener('submit', event => {
+    let x = document.forms["contactForm"]["email"].value;
+    if (x.toLowerCase() != x) {
+      event.preventDefault()
+      alert("The email should be lower case")
+      }
+  });
 }
 
 showMenu();
