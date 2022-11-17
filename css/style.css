@@ -882,7 +882,6 @@ a:hover {
 
   /* Works-popup */
   .works-popup {
-    display: flex;
     align-items: center;
     width: 92%;
     height: 100%;
@@ -913,7 +912,6 @@ a:hover {
 
   .popup-img {
     display: flex;
-    background-position: center;
     width: 57%;
     height: 55vh;
     background: url("../images/popups/Snapshoot\ Portfolio\(desktop\).png");
