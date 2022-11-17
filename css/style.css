@@ -682,6 +682,7 @@ a:hover {
   .works {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     gap: 114px;
   }
 
@@ -701,9 +702,9 @@ a:hover {
   }
 
   .works_content {
-    width: 1156px;
-    height: 1379px;
     align-items: center;
+    padding-left: 9.79%;
+    padding-right: 9.79%;
     order: 1;
   }
 
@@ -882,7 +883,7 @@ a:hover {
   /* Works-popup */
   .works-popup {
     padding: 112px 9.86% 112px 9.86%;
-    width: auto;
+    width: 80%;
     backdrop-filter: blur(7px);
     display: none;
     position: absolute;
