@@ -575,7 +575,7 @@ a:hover {
 .popup-img {
   width: 82%;
   height: 220px;
-  background: url("../images/popups/Snapshoot\ Portfolio.png");
+  background: url("../images/popups/Snapshoot\ Portfolio.png") no-repeat;
 }
 
 .popup-text {
@@ -715,7 +715,6 @@ a:hover {
   #featured-image {
     width: 684px;
     height: 448px;
-    order: 1;
     background: url('../images/desktop-size/Img\ Placeholder\(1\).png') no-repeat;
   }
 

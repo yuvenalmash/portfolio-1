@@ -26,7 +26,7 @@ function closeProject() {
 function createFeaturedWorks(project, tagsListId) {
   const featuredWorks = `
         <div class="featured-content">
-          <img src="${image}" alt="featured image" id="featured-image">
+          <div id=featured-image></div>
           <div class="featured-textblock">
             <h2 id="textblock-title">${project.name}</h2>
             <p id="textblock-supporting-text">${project.description}</p>
@@ -39,21 +39,18 @@ function createFeaturedWorks(project, tagsListId) {
   var image
   if((window.matchMedia("(max-width: 767px)")).matches){
     image = project.featuredImageSmall
-  } else {
+  }else {
     image = project.featuredImageBig
   }
   
+
   var parent = document.getElementById('worksContent')
   parent.innerHTML += featuredWorks
   generatelist(project.technologies, tagsListId)
-}
-
-function imageMediaQuery(x) {
-  if (x.matches) { // If media query matches
-    image = project.featuredImageSmall
-  } else {
-    image = project.featuredImageBig
-  }
+  // var img = document.createElement("img");
+  // img.src = image;
+  // var src = document.getElementById("featured-image");
+  // src.appendChild(img);
 }
 
 function createOtherWorks(project, tagsListId) {
@@ -80,7 +77,8 @@ function createWorkPopup(project) {
         <ul class="popuptags" id="popupTags">
         </ul>
         <div class="popup-content">
-          <img src="${project.featuredImage}" alt="featured image" id="popup-img">
+         <!-- <img src="${project.featuredImage}" alt="featured image" id="popup-img"> -->
+          <div class="popup-img"></div>
           <div class="popup-text">
             <p>${project.description}</p>
             <ul>
@@ -116,14 +114,7 @@ function generatelist(array, listId) {
 function pageLoad() {
   var projects = listProjects()
   for (let x = 0; x < projects.length; x++) {
-    var title = projects[x].name
-    var description = projects[x].description
-    var featuredImage = projects[x].featuredImage
-    var technologies = projects[x].technologies
-    var linkToLive = projects[x].linkToLive
-    var linkToSource = projects[x].linkToSource
     var tagsListId = "tagsListId" + (x.toString())
-    var otherWorksId = projects[x].id
     if (x === 0) {
       createFeaturedWorks(projects[x], tagsListId)
     } else {
@@ -137,8 +128,9 @@ function listProjects() {
     id: 1,
     name: 'Multi-Post Stories',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    featuredImageBig: 'images/desktop-size/Img Placeholder(1).png',
+    featuredImageBig: 'images/desktop-size/ImgPlaceholder.png',
     featuredImageSmall: 'images/featured-work/Img-Placeholder.png',
+    featuredImage: 'images/projects/project1/Snapshoot Portfolio(desktop).png',
     technologies: ['css', 'html', 'bootstrap', 'Ruby'],
     linkToLive: 'https://www.freecodecamp.org/news/what-is-a-fullstack-developer/',
     linkToSource: 'https://github.com/yuvenalmash',
