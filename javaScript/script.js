@@ -175,14 +175,15 @@ function pageLoad() {
     }
   }
 
-  //Validate Form
+  // Validate Form
   const element = document.querySelector('form');
-  element.addEventListener('submit', event => {
-    let x = document.forms["contactForm"]["email"].value;
-    if (x.toLowerCase() != x) {
-      event.preventDefault()
-      alert("The email should be lower case")
-      }
+  element.addEventListener('submit', (event) => {
+    const email = document.forms.contactForm.email.value;
+    const formWarning = document.getElementById('formWarning');
+    if (email.toLowerCase() !== email) {
+      event.preventDefault();
+      formWarning.style.display = 'block';
+    }
   });
 }
 
