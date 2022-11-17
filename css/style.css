@@ -882,11 +882,14 @@ a:hover {
 
   /* Works-popup */
   .works-popup {
-    padding: 112px 9.86% 112px 9.86%;
-    width: 80%;
+    display: flex;
+    align-items: center;
+    width: 92%;
+    height: 100%;
     backdrop-filter: blur(7px);
     display: none;
-    position: absolute;
+    position: fixed;
+    overflow: scroll;
   }
 
   .popup-card {
@@ -909,8 +912,10 @@ a:hover {
   }
 
   .popup-img {
+    display: flex;
+    background-position: center;
     width: 57%;
-    height: 448px;
+    height: 55vh;
     background: url("../images/popups/Snapshoot\ Portfolio\(desktop\).png");
   }
 
