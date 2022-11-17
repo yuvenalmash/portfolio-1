@@ -9,13 +9,14 @@
   <title>Yuvenal's Portfolio</title>
 </head>
 
-<body>
+<body onload = "pageLoad()">
   <div class="main-container">
 
     <!-- Navbar -->
     <div class="navbar">
       <a id="logo-text" href="#">Yuvenal</a>
-      <a class="nav-menu-icon" onclick="showMenu()"><img id="navbar-menu-icon" src="icons/menu/Union.png" alt="menu"></a>
+      <a class="nav-menu-icon" onclick="showMenu()"><img id="navbar-menu-icon" src="icons/menu/Union.png"
+          alt="menu"></a>
       <ul class="navbar-menu">
         <li><a class="nav-menu-button" href="#works_section">Portfolio</a></li>
         <li><a class="nav-menu-button" href="#about_section">About</a></li>
@@ -25,7 +26,7 @@
         </li>
       </ul>
     </div>
-    
+
     <!-- Menu -->
     <div class="menu" id="menu-box">
       <div class="menu-nav">
@@ -33,11 +34,14 @@
       </div>
       <ul>
         <li><a onclick="closeMenu()" href="#works_section">Portfolio</a>
-        <hr></li>
+          <hr>
+        </li>
         <li><a onclick="closeMenu()" href="#about_section">About</a>
-        <hr></li>
+          <hr>
+        </li>
         <li><a onclick="closeMenu()" href="#contact_section">Contact</a>
-        <hr></li>
+          <hr>
+        </li>
       </ul>
       <div class="menu-footer">
         <hr>
@@ -75,85 +79,14 @@
         <h1 class="works-title">My Recent Works</h1>
         <hr class="works-header-hr">
       </header>
-      <div class="works-content">
-        <div class="featured-content">
-          <div id="featured-image"></div>
-          <div class="featured-textblock">
-            <h2 id="textblock-title">Multi-Post Stories</h2>
-            <p id="textblock-supporting-text">A daily selection of privately personalized reads; no accounts or sign-ups
-              required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-              standard dummy text.</p>
-            <ul class="textblock-tags">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-            <a class="textblock-link" href="#" target="_blank">See Project</a>
-          </div>
-        </div>
-        <div class="other-content">
-          <div class="content-defaults content1">
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
-          </div>
-          <div class="content-defaults content2">
-            <h2 class="other-content-title">Profesional Art Printing Data</h2>
-            <p class="other-content-description">A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p>
-            <ul class="other-content-tags">
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
-          </div>
-          <div class="content-defaults content3">
-            <h2 class="other-content-title">Profesional Art Printing Data</h2>
-            <p class="other-content-description">A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p>
-            <ul class="other-content-tags">
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
-          </div>
-          <div class="content-defaults content4">
-            <h2 class="other-content-title">Profesional Art Printing Data</h2>
-            <p class="other-content-description">A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p>
-            <ul class="other-content-tags">
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
-          </div>
-          <div class="content-defaults content5">
-            <h2 class="other-content-title">Profesional Art Printing Data</h2>
-            <p class="other-content-description">A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p>
-            <ul class="other-content-tags">
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
-          </div>
-          <div class="content-defaults content6">
-            <h2 class="other-content-title">Profesional Art Printing Data</h2>
-            <p class="other-content-description">A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard</p>
-            <ul class="other-content-tags">
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>Ruby</li>
-            </ul>
-            <a class="other-content-link" href="#" target="_blank">See Project</a>
-          </div>
-        </div>
+      <div class="works_content" id="worksContent">
+        <!-- div for class="featured-content"> -->
+        <div class="other-content" id="otherContent"></div>
       </div>
     </div>
+
+    <!-- works popup -->
+    <div class="works-popup" id="popupBox"></div>
 
     <!-- About -->
     <div class="about" id="about_section">

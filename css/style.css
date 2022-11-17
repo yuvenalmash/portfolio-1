@@ -139,7 +139,7 @@ a:hover {
   border: 1px solid #212121;
 }
 
-.works-content {
+.works_content {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -149,6 +149,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  order: 0;
 }
 
 #featured-image {
@@ -213,6 +214,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  order: 1;
 }
 
 .content-defaults {
@@ -278,6 +280,14 @@ a:hover {
 
 .content1 {
   padding-top: 338px;
+}
+
+/* popup window */
+
+.popuptags li {
+  padding: 10px 12px;
+  border: 1px solid #dfe1e6;
+  background: #fff;
 }
 
 /* About */
@@ -504,6 +514,88 @@ a:hover {
   border-radius: 20%;
 }
 
+/* Works-popup */
+.works-popup {
+  padding: 60px 4.26% 221px 4.26%;
+  backdrop-filter: blur(7px);
+  display: none;
+  position: absolute;
+}
+
+.popup-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 4.66%;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+}
+
+.popup-card a {
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  background-color: #ff6b00;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.popup-card a:hover {
+  background-color: #c75d12;
+}
+
+.works-popup header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.works-popup h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  height: 82px;
+  color: #172b4d;
+}
+
+.popuptags {
+  display: flex;
+  padding: 0%;
+  list-style: none;
+  gap: 5px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.popup-img {
+  width: 82%;
+  height: 220px;
+  background: url("../images/popups/Snapshoot\ Portfolio.png") no-repeat;
+}
+
+.popup-text {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.popup-text ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  gap: 19px;
+  list-style: none;
+}
+
+/* *************************************** */
+
 /* *************************************** */
 @media only screen and (min-width: 768px) {
   /* Navbar */
@@ -590,6 +682,7 @@ a:hover {
   .works {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     gap: 114px;
   }
 
@@ -608,10 +701,10 @@ a:hover {
     width: 60%;
   }
 
-  .works-content {
-    width: 1156px;
-    height: 1379px;
+  .works_content {
     align-items: center;
+    padding-left: 9.79%;
+    padding-right: 9.79%;
     order: 1;
   }
 
@@ -625,7 +718,6 @@ a:hover {
   #featured-image {
     width: 684px;
     height: 448px;
-    order: 1;
     background: url('../images/desktop-size/Img\ Placeholder\(1\).png') no-repeat;
   }
 
@@ -666,6 +758,8 @@ a:hover {
 
   .content-defaults {
     background: none;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .content1 {
@@ -784,5 +878,61 @@ a:hover {
 
   .bottom-navigation {
     order: 5;
+  }
+
+  /* Works-popup */
+  .works-popup {
+    align-items: center;
+    width: 92%;
+    height: 100%;
+    backdrop-filter: blur(7px);
+    display: none;
+    position: fixed;
+    overflow: scroll;
+  }
+
+  .popup-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 2.07%;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+  }
+
+  .works-popup h1 {
+    height: 40px;
+  }
+
+  .popup-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+  }
+
+  .popup-img {
+    display: flex;
+    width: 57%;
+    height: 55vh;
+    background: url("../images/popups/Snapshoot\ Portfolio\(desktop\).png");
+  }
+
+  .popup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 36.7%;
+    gap: 19px;
+  }
+
+  .popup-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .popup-text ul {
+    justify-content: flex-start;
   }
 }
