@@ -195,7 +195,7 @@ a:hover {
   gap: 12px;
 }
 
-.textblock-tags>li {
+.textblock-tags > li {
   background: #fff;
   border: 1px solid #8993a4;
   padding: 10px 12px;
@@ -264,7 +264,7 @@ a:hover {
   padding-right: 5.42%;
 }
 
-.other-content-tags>li {
+.other-content-tags > li {
   padding: 10px;
   background: rgba(255, 255, 255, 0.24);
 }
@@ -280,6 +280,14 @@ a:hover {
 
 .content1 {
   padding-top: 338px;
+}
+
+/* popup window */
+
+.popuptags li {
+  padding: 10px 12px;
+  border: 1px solid #dfe1e6;
+  background: #fff;
 }
 
 /* About */
@@ -351,7 +359,7 @@ a:hover {
   padding-bottom: 25px;
 }
 
-.about-bottom-items>ul>li {
+.about-bottom-items > ul > li {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -360,11 +368,11 @@ a:hover {
   text-align: center;
 }
 
-.about-bottom>ul {
+.about-bottom > ul {
   padding: 0%;
 }
 
-.about-bottom-items>ul {
+.about-bottom-items > ul {
   line-height: 30px;
   padding: 0%;
 }
@@ -400,7 +408,7 @@ a:hover {
   color: #172b4d;
 }
 
-.form-section-form>form {
+.form-section-form > form {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -519,8 +527,8 @@ a:hover {
   flex-direction: column;
   gap: 12px;
   padding: 4.66%;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
 }
 
 .popup-card a {
@@ -528,14 +536,14 @@ a:hover {
   color: #fff;
   font-weight: 700;
   font-size: 17px;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   display: flex;
   align-items: center;
   gap: 5px;
   text-decoration: none;
 }
 
-.popup-card a:hover{
+.popup-card a:hover {
   background-color: #c75d12;
 }
 
@@ -550,7 +558,7 @@ a:hover {
   font-size: 32px;
   line-height: 44px;
   height: 82px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .popuptags {
@@ -558,12 +566,6 @@ a:hover {
   padding: 0%;
   list-style: none;
   gap: 5px;
-}
-
-.popuptags li {
-  padding: 10px 12px;
-  border: 1px solid #DFE1E6;
-  background: #FFFFFF;
 }
 
 .popup-content {
@@ -593,9 +595,9 @@ a:hover {
 }
 
 /* *************************************** */
+
 /* *************************************** */
 @media only screen and (min-width: 768px) {
-
   /* Navbar */
   .navbar {
     height: 72px;
@@ -820,7 +822,7 @@ a:hover {
     gap: 100px;
   }
 
-  .about-bottom-items>ul>li {
+  .about-bottom-items > ul > li {
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
@@ -891,8 +893,8 @@ a:hover {
     flex-direction: column;
     gap: 12px;
     padding: 2.07%;
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
+    background: #fff;
+    border: 1px solid #dfe1e6;
   }
 
   .works-popup h1 {
