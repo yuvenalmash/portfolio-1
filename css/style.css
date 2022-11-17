@@ -414,10 +414,6 @@ a:hover {
   gap: 24px;
 }
 
-#names {
-  display: none;
-}
-
 .form-section form label {
   display: none;
 }
@@ -870,10 +866,6 @@ a:hover {
 
   #last-name {
     width: 43.5%;
-  }
-
-  #name {
-    display: none;
   }
 
   .bottom-navigation {
