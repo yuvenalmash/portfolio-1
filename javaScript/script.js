@@ -184,6 +184,15 @@ function pageLoad() {
       event.preventDefault();
       formWarning.style.display = 'block';
     }
+
+  //Storage in browser
+  // element.addEventListener('submit', (event) => {
+  //   const email = document.forms.contactForm.email.value;
+  //   const formWarning = document.getElementById('formWarning');
+  //   if (email.toLowerCase() !== email) {
+  //     event.preventDefault();
+  //     formWarning.style.display = 'block';
+  //   }
   });
 }
 
