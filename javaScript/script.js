@@ -174,6 +174,17 @@ function pageLoad() {
       createOtherWorks(projects[x], tagsListId);
     }
   }
+
+  // Validate Form
+  const element = document.querySelector('form');
+  element.addEventListener('submit', (event) => {
+    const email = document.forms.contactForm.email.value;
+    const formWarning = document.getElementById('formWarning');
+    if (email.toLowerCase() !== email) {
+      event.preventDefault();
+      formWarning.style.display = 'block';
+    }
+  });
 }
 
 showMenu();

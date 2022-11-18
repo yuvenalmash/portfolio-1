@@ -414,12 +414,13 @@ a:hover {
   gap: 24px;
 }
 
-#names {
+.form-section form label {
   display: none;
 }
 
-.form-section form label {
+#formWarning {
   display: none;
+  color: red;
 }
 
 #submit-btn {
@@ -870,10 +871,6 @@ a:hover {
 
   #last-name {
     width: 43.5%;
-  }
-
-  #name {
-    display: none;
   }
 
   .bottom-navigation {
