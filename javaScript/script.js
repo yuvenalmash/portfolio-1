@@ -1,3 +1,26 @@
+function pageLoad() {
+  const projects = listProjects();
+  for (let x = 0; x < projects.length; x += 1) {
+    const tagsListId = `tagsListId${x.toString()}`;
+    if (x === 0) {
+      createFeaturedWorks(projects[x], tagsListId);
+    } else {
+      createOtherWorks(projects[x], tagsListId);
+    }
+  }
+
+  // Validate Form
+  const element = document.querySelector('form');
+  element.addEventListener('submit', (event) => {
+    const email = document.forms.contactForm.email.value;
+    const formWarning = document.getElementById('formWarning');
+    if (email.toLowerCase() !== email) {
+      event.preventDefault();
+      formWarning.style.display = 'block';
+    }
+  });
+}
+
 function showMenu() {
   const menuBox = document.getElementById('menu-box');
   menuBox.style.display = 'block';
@@ -11,14 +34,14 @@ function closeMenu() {
 function listProjects() {
   const project1 = {
     id: 1,
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    featuredImageBig: 'images/desktop-size/ImgPlaceholder.png',
-    featuredImageSmall: 'images/featured-work/Img-Placeholder.png',
-    featuredImage: 'images/projects/project1/Snapshoot Portfolio(desktop).png',
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
-    linkToLive: 'https://www.freecodecamp.org/news/what-is-a-fullstack-developer/',
-    linkToSource: 'https://github.com/yuvenalmash',
+    name: 'Vehicle Auction',
+    description: 'A website announcing a vehicle auction event. Some sections are dynamically created by JavaScript',
+    featuredImageBig: 'images/vehiceAuction/page1.png',
+    featuredImageSmall: 'images/vehiceAuction/mpage1.png',
+    featuredImage: 'images/vehiceAuction/page1.png',
+    technologies: ['css', 'html', 'javascript'],
+    linkToLive: 'https://yuvenalmash.github.io/vehicle-auction/',
+    linkToSource: 'https://github.com/yuvenalmash/vehicle-auction',
   };
   const project2 = {
     id: 2,
@@ -164,28 +187,7 @@ function createOtherWorks(project, tagsListId) {
   generatelist(project.technologies, tagsListId);
 }
 
-function pageLoad() {
-  const projects = listProjects();
-  for (let x = 0; x < projects.length; x += 1) {
-    const tagsListId = `tagsListId${x.toString()}`;
-    if (x === 0) {
-      createFeaturedWorks(projects[x], tagsListId);
-    } else {
-      createOtherWorks(projects[x], tagsListId);
-    }
-  }
 
-  // Validate Form
-  const element = document.querySelector('form');
-  element.addEventListener('submit', (event) => {
-    const email = document.forms.contactForm.email.value;
-    const formWarning = document.getElementById('formWarning');
-    if (email.toLowerCase() !== email) {
-      event.preventDefault();
-      formWarning.style.display = 'block';
-    }
-  });
-}
 
 showMenu();
 closeMenu();

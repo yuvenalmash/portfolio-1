@@ -155,7 +155,7 @@ a:hover {
 #featured-image {
   min-height: 237px;
   justify-content: center;
-  background: url('../images/featured-work/Img-Placeholder.png') no-repeat;
+  background: url('../images/vehiceAuction/mpage1.png') no-repeat;
   background-position: center center;
 }
 
@@ -719,7 +719,7 @@ a:hover {
   #featured-image {
     width: 684px;
     height: 448px;
-    background: url('../images/desktop-size/Img\ Placeholder\(1\).png') no-repeat;
+    background: url('../images/vehiceAuction/page1.png') no-repeat;
   }
 
   .featured-textblock {
